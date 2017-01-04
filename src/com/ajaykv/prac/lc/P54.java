@@ -3,13 +3,7 @@ package com.ajaykv.prac.lc;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Prob54_Spiral2DArray {
-
-    public static void main(String[] args) {
-        int[][] matrix = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20}};
-        Prob54_Spiral2DArray spiral = new Prob54_Spiral2DArray();
-        System.out.println(spiral.spiralOrder(matrix));
-    }
+public class P54 {
 
     public List<Integer> spiralOrder(int[][] matrix) {
 
