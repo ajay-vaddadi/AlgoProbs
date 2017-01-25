@@ -14,6 +14,7 @@ public class MergeSort implements Sort{
         int[] rightArr = Arrays.copyOfRange(inputArr,mid,inputArr.length);
         leftArr = sort(leftArr);
         rightArr= sort(rightArr);
+
         merge(leftArr,rightArr,inputArr);
         return inputArr;
     }
